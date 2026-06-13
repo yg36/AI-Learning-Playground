@@ -1,26 +1,32 @@
 # AI Learning Playground
 
-Interactive GenAI concept playground that turns core AI/LLM ideas into small visual demos.
+## Overview
 
-The name says learning, but the useful recruiter signal is product thinking: each concept is translated into a UI that helps non-technical users understand how LLM systems behave.
+Interactive GenAI concept playground with demos for tokens, context windows, temperature, hallucination risk, and RAG.
 
-## Concepts Covered
+Project type: JavaScript/React application.
 
-- Tokens: how text is split into model-readable units
-- Context window: why models lose information beyond a limit
-- Temperature: predictable vs creative output behavior
-- Hallucination risk: why confident output still needs grounding
-- RAG: retrieval-augmented generation as a way to ground answers
+## What This Repository Contains
 
-## Why This Is Useful
-
-AI/ML roles increasingly need engineers who can explain model behavior, build interactive tools, and make AI concepts understandable to product teams. This repo demonstrates that translation layer.
+- `README.md`
+- `ai-learning-playground/README.md`
+- `ai-learning-playground/backend/app/main.py`
+- `ai-learning-playground/backend/requirements.txt`
+- `ai-learning-playground/index.html`
+- `ai-learning-playground/package.json`
+- `ai-learning-playground/src/App.css`
+- `ai-learning-playground/src/App.jsx`
+- `ai-learning-playground/src/assets/hero.png`
+- `ai-learning-playground/src/assets/react.svg`
+- `ai-learning-playground/src/assets/vite.svg`
+- `ai-learning-playground/src/index.css`
+- `ai-learning-playground/src/main.jsx`
 
 ## Tech Stack
 
-React, Vite, JavaScript, CSS, lucide-react.
+Vite/React, React, Python, HTML/CSS
 
-## Run Locally
+## How To Run / Use
 
 ```bash
 cd ai-learning-playground
@@ -28,12 +34,19 @@ npm install
 npm run dev
 ```
 
-## Recruiter Notes
+For production validation, run:
 
-This is not positioned as a core ML model repo. It is best used as a supporting pinned project for AI product engineering and AI education tooling.
+```bash
+npm run build
+```
 
-## Next Improvements
+## Current Status
 
-- Add screenshots for all demos
-- Add a small RAG toy dataset
-- Rename/reframe future versions toward "Interactive GenAI Playground" for stronger recruiter signal
+This is a learning/practice repository. It is useful for history, but it should not be treated as a primary AI/ML showcase project.
+
+## Notes For Reviewers
+
+- Start with the overview and key files above.
+- If this is a notebook repository, run it in a clean Jupyter or VS Code notebook environment.
+- If this is a frontend app, run the install/build commands before judging the project.
+- Some older practice repositories are kept public for learning history, not as primary portfolio pieces.
