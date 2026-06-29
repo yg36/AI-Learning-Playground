@@ -56,3 +56,5 @@ This is a learning/practice repository. It is useful for history, but it should 
 
 Reviewed for recruiter visibility, setup clarity, and AI/ML positioning on June 13, 2026.
 <!-- recruiter-review:end -->
+
+<!-- repository-refresh: 2026-06-29 | preserved-order-rank: 009/71 -->
